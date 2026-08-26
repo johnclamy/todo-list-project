@@ -2,7 +2,7 @@ from models.books import BookCategory, BookPublisher, BookBaseModel
 from typing import List
 
 
-_books = [
+_books: List[BookBaseModel] = [
     BookBaseModel(
         isbn_13="978-1-492-D4522-6",                    
         title="Deep Learning for Coders with fastapi & PyTorch",
