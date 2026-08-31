@@ -1,3 +1,4 @@
+#server/src/server/main.py
 import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
